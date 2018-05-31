@@ -1,0 +1,29 @@
+{
+  "name": "min-electron-react",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "./",
+  "main": "src/electron-starter.js",
+  "devDependencies": {
+    "electron": "^2.0.1",
+    "foreman": "^2.0.0",
+    "react-scripts": "^1.0.14"
+  },
+  "dependencies": {
+    "@pusher/chatkit": "^0.7.12",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pusher-chatkit-server": "^0.12.0",
+    "react": "^16.0.0",
+    "react-desktop": "^0.3.5",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "electron": "electron .",
+    "dev": "nf start -p 3000"
+  }
+}
